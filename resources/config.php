@@ -1,4 +1,10 @@
-"authString"=>"6195ffa2561bf8fe510a7c2e2aafb1e3",
+<?php
+
+KformConfig::setConfig(array(
+    "isWordpress" => false,
+    "apiLoginId" => "os_api",
+    "apiPassword" => 'p@$$w0rd123123',
+     "authString"=>"6195ffa2561bf8fe510a7c2e2aafb1e3",
 	"autoUpdate_allowedIps"=>array("80.248.30.132"),
 	"campaignId"=>19,
 	"resourceDir"=>"resources/"));
